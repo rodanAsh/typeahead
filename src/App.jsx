@@ -1,12 +1,12 @@
 import React from 'react'
+import TypeAhead from './components/typeahead/TypeAhead'
 import './App.css'
-
 
 const App = () => {
   return (
-    <div className='app'>
-      App
-    </div>
+    <main className='app'>
+      <TypeAhead />
+    </main>
   )
 }
 
