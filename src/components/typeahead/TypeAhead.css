@@ -18,3 +18,26 @@
     outline: auto;
     outline-color: #0077fff8;
 }
+
+.product-list{
+   width: 100%;
+   padding: 20px 40px;
+   display: grid;
+   grid-template-columns: 200px 200px 200px;
+   gap: 10px;
+   place-content: center;
+}
+
+.product-card{
+    background-color: #ccc;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card>img{
+    width: 100px;
+}
